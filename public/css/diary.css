@@ -1,0 +1,27 @@
+form .biaoti input{
+
+	width:400px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+form .biaoti b{
+
+	font-size: 30px;
+}
+
+form .biaoti{
+	margin-left: 50px;
+}
+
+form .save{
+
+		font-size: 20px;
+		margin-left:20px;
+		margin-top:20px; 
+}
+
+.dttext ul {
+	padding: 20px 20px 20px 0
+}
+

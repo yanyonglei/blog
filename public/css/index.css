@@ -1,0 +1,73 @@
+ .html, .body 
+ {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Raleway';
+                font-weight: bold;
+                height: 100px;
+                margin: 0;
+                background:url(../images/timg.jpg);
+            }
+
+            .full-height {
+                height: 100px;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                margin-top:320px;
+
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 84px;
+            }
+
+            .links > a {
+                color: #D7C4C5;
+                padding: 0 25px;
+                font-size: 35px;
+                font-weight: bold;
+                letter-spacing: .1rem;
+                text-decoration: none;
+            }
+            .links > a:hover{
+                color:#E68888;
+                text-decoration:underline;
+            }
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+            .title a img {
+                max-height: none!important;
+                width: 120px;
+                height: 120px;
+                overflow: hidden;
+                border-radius: 50%;
+                background: #FFF;
+                box-shadow: rgba(255,255,255,1) 0 0 0 5px,rgba(0,0,0,1) 0 0 5px 4px;
+                -webkit-transition: -webkit-transform 600ms;
+                -moz-transition: -moz-transform 600ms;
+                transition: transform 600ms;
+            }
+            .title a img:hover {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
